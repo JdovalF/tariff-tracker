@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "ed5fb73d-3d77-4e5b-aacd-34bcd8502187",
+		"name": "tariff-tracker-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32414729"
+	},
+	"item": [
+		{
+			"name": "Test 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-14-10.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-14-16.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-14-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-14-16.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-16-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 6 404",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"2020-06-16-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test 7 400",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"applicationDate\": \"wrong date\",\n    \"productId\": \"35455\",\n    \"brandId\": \"2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
