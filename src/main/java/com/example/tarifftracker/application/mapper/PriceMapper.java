@@ -1,11 +1,10 @@
 package com.example.tarifftracker.application.mapper;
 
+import com.example.tarifftracker.application.dto.PriceDetailsDto;
+import com.example.tarifftracker.domain.model.Prices;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;
-
-import com.example.tarifftracker.application.dto.PriceDetailsDto;
-import com.example.tarifftracker.domain.entity.Prices;
 
 @Mapper(componentModel = "spring")
 public interface PriceMapper {

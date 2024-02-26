@@ -1,6 +1,10 @@
 package com.example.tarifftracker.shared;
 
 public class TestConstants {
+
+    private TestConstants() {
+    }
+
     public static final String TEST_NOT_FOUND_WITH_ID_MESSAGE = "Entity %s not Found with id %s";
     public static final String TEST_NOT_FOUND_WITH_PARAMETERS_MESSAGE = "Entity %s not Found with parameters %s";
     public static final String TEST_PRODUCT_ENTITY_NAME = "PRODUCT";

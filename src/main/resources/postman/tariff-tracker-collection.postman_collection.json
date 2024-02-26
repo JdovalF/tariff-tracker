@@ -1,19 +1,22 @@
 {
 	"info": {
-		"_postman_id": "ed5fb73d-3d77-4e5b-aacd-34bcd8502187",
+		"_postman_id": "0ac09606-99fb-456e-8cdd-795c1da66b44",
 		"name": "tariff-tracker-collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "32414729"
+		"_exporter_id": "3212186"
 	},
 	"item": [
 		{
 			"name": "Test 1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-14-10.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,7 +24,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14-10.00.00&productId=35455&brandId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -31,6 +34,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-10.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -38,12 +55,15 @@
 		},
 		{
 			"name": "Test 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-14-16.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -51,7 +71,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14-16.00.00&productId=35455&brandId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -61,6 +81,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-16.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -68,12 +102,15 @@
 		},
 		{
 			"name": "Test 3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-14-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -81,7 +118,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14-21.00.00&productId=35455&brandId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -91,6 +128,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-21.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -98,12 +149,15 @@
 		},
 		{
 			"name": "Test 4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-14-16.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -111,7 +165,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14-16.00.00&productId=35455&brandId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -121,6 +175,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14-16.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -128,12 +196,15 @@
 		},
 		{
 			"name": "Test 5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-16-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"1\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -141,7 +212,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-16-21.00.00&productId=35455&brandId=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -151,6 +222,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16-21.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
 					]
 				}
 			},
@@ -158,12 +243,15 @@
 		},
 		{
 			"name": "Test 6 404",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"2020-06-16-21.00.00\",\n    \"productId\": \"35455\",\n    \"brandId\": \"2\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -171,7 +259,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-16-21.00.00&productId=35455&brandId=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -181,6 +269,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16-21.00.00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "2"
+						}
 					]
 				}
 			},
@@ -188,12 +290,15 @@
 		},
 		{
 			"name": "Test 7 400",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"applicationDate\": \"wrong date\",\n    \"productId\": \"35455\",\n    \"brandId\": \"2\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -201,7 +306,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/v1/prices",
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-16-21&productId=35455&brandId=2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -211,6 +316,20 @@
 						"api",
 						"v1",
 						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-16-21"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "2"
+						}
 					]
 				}
 			},

@@ -5,6 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public class TestUtils {
 
+    private TestUtils() {
+    }
+
     public static LocalDateTime convertStringToLocalDateTime(String dateTimeString) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH.mm.ss");
         return LocalDateTime.parse(dateTimeString, formatter);

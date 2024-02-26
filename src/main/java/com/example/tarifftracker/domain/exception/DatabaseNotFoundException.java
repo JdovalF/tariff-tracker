@@ -7,4 +7,5 @@ public class DatabaseNotFoundException extends PersistenceException {
     public DatabaseNotFoundException(String message) {
         super(message);
     }
+
 }

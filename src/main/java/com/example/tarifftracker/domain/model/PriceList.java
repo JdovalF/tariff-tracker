@@ -1,6 +1,4 @@
-package com.example.tarifftracker.domain.entity;
-
-import java.util.Set;
+package com.example.tarifftracker.domain.model;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -11,17 +9,20 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Entity
 @Getter
 @Setter
-public class Product {
+public class PriceList {
 
     @Id
-    private Integer productId;
+    private Integer priceListId;
 
     @NotNull
     private String name;
 
-    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "priceList", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<Prices> prices;
+
 }

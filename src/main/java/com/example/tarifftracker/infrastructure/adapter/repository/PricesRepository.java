@@ -1,13 +1,12 @@
-package com.example.tarifftracker.domain.repository;
+package com.example.tarifftracker.infrastructure.adapter.repository;
 
-import java.time.LocalDateTime;
-import java.util.Optional;
-
+import com.example.tarifftracker.domain.model.Prices;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.example.tarifftracker.domain.entity.Prices;
+import java.time.LocalDateTime;
+import java.util.Optional;
 
 @Repository
 public interface PricesRepository extends JpaRepository<Prices, Integer> {

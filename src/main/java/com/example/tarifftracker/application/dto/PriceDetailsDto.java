@@ -1,14 +1,14 @@
 package com.example.tarifftracker.application.dto;
 
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -25,7 +25,4 @@ public class PriceDetailsDto {
     private Integer productId;
     private BigDecimal price;
     private String currency;
-
 }
-
-

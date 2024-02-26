@@ -1,7 +1,4 @@
-package com.example.tarifftracker.domain.entity;
-
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
+package com.example.tarifftracker.domain.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,6 +14,9 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
